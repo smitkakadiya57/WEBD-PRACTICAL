@@ -1,0 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+*{
+    font-family: 'Nunito', sans-serif;
+}
+
+.menu-bar {
+    border: 2px solid #8a2be2;
+    height: 300px;
+    text-align: center;
+    background-color: #e4e4e4;
+}
+
+
+.frame-content{
+    border: 2px solid #b778f1;
+    height: 300px;
+    text-align: center;
+    background-color: #f5f5f5;
+}

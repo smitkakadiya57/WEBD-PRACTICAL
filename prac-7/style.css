@@ -1,0 +1,27 @@
+/* external css file  */
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+table {
+  margin: 100px auto;
+
+  box-sizing: border-box;
+  border-collapse: collapse;
+  overflow: hidden;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 0 12px grey;
+}
+
+td,
+th {
+  padding: 10px 20px;
+}
+
+.break {
+  background-color: rgb(201, 210, 245);
+}
