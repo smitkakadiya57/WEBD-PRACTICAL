@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Even and ODD Check</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-size: 20px;
+            font-family: "Nunito", sans-serif;
+        }
+
+        .container {
+            padding: 20px;
+            border: 1px solid gray;
+            width: max-content;
+            margin: 50px auto;
+            border-radius: 5px;
+            background-color: #fafafa;
+        }
+
+        input,
+        button {
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="container">
+        <input type="number" id="n1" placeholder="Enter any number">
+        <button onclick="check()">Check </button>
+        <p id="res"></p>
+    </div>
+
+    <script>
+        let n1 = document.getElementById("n1");
+        let res = document.getElementById("res");
+
+        function check() {
+            if (n1.value == '') {
+                return;
+            }
+            if (n1.value % 2 == 0) {
+                res.innerText = "Number is Even";
+            } else {
+                res.innerText = "Number is Odd";
+            }
+        }
+
+    </script>
+
+
+</body>
+
+</html>
